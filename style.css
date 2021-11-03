@@ -1,0 +1,43 @@
+
+body {
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    font-family: helvetica, sans-serif;
+}
+.navbar-header{
+    position: relative;
+}
+#header-nav{
+    background-color: gray;
+    border-width: 2px;
+}
+#header-nav h1{
+    font-family: helvetica, sans-serif;
+    font-size: 1.3em
+}
+#header-nav .collapse{
+    margin-left: -20px;
+    margin-right: -20px;
+}
+#collapsable-nav ul li a{
+    color: black;
+    font-family: helvetica, sans-serif
+    font-weight: bold;
+}
+#collapsable-nav ul{
+    font-size: 1.2rem;
+ 
+}
+#collapsable-nav ul li{
+    color: black;
+    border-bottom: 2px solid rgba(1, 1, 1, 1);
+}
+#content{
+    background-color: lightgray;
+    height: 1000px
+}
+#content-title{
+    font-size: 2rem;
+    font-family: helvetica, sans-serif;
+}
